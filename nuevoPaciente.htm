@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form action="nuevoPaciente.php" method="POST">
+		<h1>PACIENTE NUEVO</h1>
+		<P>ingrese sus datos a continuacion</P>
+		<table>
+			<tr>
+				<td>Dni Cliente <input type="number" name="dniD"></td>
+			</tr>
+			<tr>
+				<td>Nombre Cliente <input type="text" name="nombred"></td>
+			</tr>
+			<tr>
+				<td>Nombre Paciente <input type="text" name="nombrep"></td>
+			</tr>
+			<tr>
+				<td>
+					Domicilio <input type="text" name="domicilio">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Sexo del Paciente <select name="sexop"> 
+				<option> SELECCIONE </option>
+				<option value="M">Macho</option>	
+				<option value="H">Hembra </option>
+			</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Tipo de Paciente <select name="tipop"> 
+			<option> SELECIONE</option>
+			<OPTION value="Can">Canino</OPTION>
+			<option value="Fel"> Felino</option>
+		</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Esta castrado? <select name="castrado">
+				<option>SELECCIONE</option>
+				<option value="si">SI</option>
+				<option value="no">NO</option>
+		</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Año de nacimiento <input type="number" name="anioNac"></td>
+			</tr>
+		<tr>
+			<td><input type="submit" value="Cargar Paciente nuevo"></td>
+		</tr>
+		
+		</table>
+	</form>
+</body>
+</html>
